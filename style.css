@@ -1,0 +1,455 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(0, 6, 34);
+  background: linear-gradient(50deg, rgb(1, 23, 32) 100%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topnav {
+  margin: -1em 5em;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  color: yellow;
+  transform: scale(0.8);
+  transition: 1s;
+}
+
+.activea {
+  color: white;
+}
+.activeb {
+  color: white;
+}
+.activec {
+  color: white;
+}
+
+.red {
+  display: flex;
+  justify-content: right;
+}
+.red img {
+  width: 38%;
+  margin: 4em -24em;
+  border-radius: 10px;
+  background-color: aqua;
+  background: linear-gradient(
+    50deg,
+    rgb(208, 71, 25) 0%,
+    rgb(214, 80, 178) 35%,
+    rgb(184, 92, 17) 100%
+  );
+  border: 3px solid rgba(255, 255, 255, 0.176);
+}
+.self {
+  color: white;
+  margin: -25em 3em;
+}
+h1 {
+  color: white;
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin: -1em 0em;
+}
+p {
+  font-size: 35px;
+  margin: -1em 0em;
+}
+.shiva {
+  display: flex;
+  margin: 27em 5em;
+}
+.shiva a {
+  font-size: 40px;
+  padding: 0em 0.5em;
+  color: chocolate;
+}
+.port {
+  color: white;
+
+  font-size: 30px;
+}
+.imp {
+  display: flex;
+  flex-wrap: left;
+}
+.was img {
+  width: 28%;
+  margin: -5em 1em;
+  border-radius: 10px;
+  background-color: aqua;
+  background: linear-gradient(
+    50deg,
+    rgb(208, 71, 25) 0%,
+    rgb(214, 80, 178) 35%,
+    rgb(184, 92, 17) 100%
+  );
+  border: 3px solid rgba(255, 255, 255, 0.176);
+}
+.ram {
+  color: white;
+  display: flex;
+  justify-content: right;
+  margin: -10em 0 24em;
+  gap: 490px;
+}
+.goldeneye {
+  font-size: 35px;
+}
+.roll {
+  color: white;
+  margin: -14em 10em;
+  font-size: 50px;
+}
+.ser {
+  font-size: 50px;
+  color: white;
+  margin: 28em 0em;
+  text-align: left;
+}
+.web {
+  margin: -38em 0.4em;
+  color: white;
+  font-size: 35px;
+}
+.we {
+  margin: 45em 0.4em;
+  font-size: 30px;
+  color: white;
+}
+.des {
+  color: white;
+  font-size: 35px;
+  margin: -36em 1em;
+}
+.de {
+  color: white;
+  margin: 43em 1em;
+  font-size: 30px;
+}
+.contact {
+  color: white;
+  font-size: 50px;
+  margin: -25em 1em;
+}
+.dewq {
+  font-size: 16px;
+  color: white;
+  margin: 81em 1em;
+}
+.number {
+  font-size: 16px;
+  margin: 2em 0em;
+}
+.shiv {
+  display: flex;
+}
+.shiv a {
+  font-size: 30px;
+  padding: 0em 0.5em;
+  color: chocolate;
+}
+button {
+  margin: 2em 0em;
+  font-size: 17px;
+  padding: 1em 1em;
+}
+input[type="text"],
+.shia textarea {
+  width: 100%;
+  border: 0%;
+  outline: none;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.shia {
+  margin: -102em 30em;
+  color: rgb(236, 236, 230);
+}
+input[type="submit"] {
+  color: white;
+  padding: 1em 3em;
+  margin: 0em 12em;
+  background: rgb(164, 162, 187);
+  background: linear-gradient(
+    50deg,
+    rgb(50, 42, 42) 0%,
+    rgb(41, 37, 29) 35%,
+    rgb(26, 2, 2) 100%
+  );
+  border-radius: 20px;
+  font-size: 15px;
+}
+.cv {
+  color: white;
+  background: rgb(164, 162, 187);
+  background: linear-gradient(
+    50deg,
+    rgb(1, 0, 0) 0%,
+    rgb(6, 4, 1) 35%,
+    rgb(35, 2, 2) 100%
+  );
+  border-radius: 10px;
+}
+.vew {
+  margin: 100em 0em;
+}
+.wert {
+  background-color: red;
+  background: linear-gradient(
+    50deg,
+    rgb(44, 13, 3) 0%,
+    rgb(59, 4, 32) 35%,
+    rgb(33, 15, 38) 100%
+  );
+  border-radius: 30px;
+}
+.bond {
+  background-color: red;
+  background: linear-gradient(
+    50deg,
+    rgb(44, 13, 3) 0%,
+    rgb(59, 4, 32) 35%,
+    rgb(33, 15, 38) 100%
+  );
+  border-radius: 30px;
+}
+.shiva a:hover {
+  transform: scale(0.8);
+  transition: 1s;
+  color: darkviolet;
+}
+.shiv a:hover {
+  transform: scale(0.8);
+  transition: 1s;
+  color: darkviolet;
+}
+button:hover {
+  transform: scale(1.1);
+  background: rgb(164, 162, 187);
+  background: linear-gradient(
+    50deg,
+    rgb(57, 8, 8) 0%,
+    rgb(216, 13, 13) 35%,
+    rgb(33, 4, 4) 100%
+  );
+  transition: 1s;
+}
+input[type="submit"]:hover {
+  transform: scale(0.8);
+  transition: 1s;
+  background: linear-gradient(
+    50deg,
+    rgb(57, 8, 8) 0%,
+    rgb(216, 13, 13) 35%,
+    rgb(33, 4, 4) 100%
+  );
+}
+
+.icon {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .port {
+    font-size: 14px;
+    margin: 0.4em 0em;
+  }
+  .mobile-container {
+    max-width: 418px;
+    background-color: #312424;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(146, 0, 85);
+    background: linear-gradient(
+      50deg,
+      rgb(39, 3, 3) 0%,
+      rgb(57, 7, 7) 35%,
+      rgb(27, 8, 80) 100%
+    );
+    max-width: 560px;
+    position: relative;
+    margin-right: 0.1em;
+    margin-top: -2em;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  .topnav a.icon {
+    float: right;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .activea {
+    display: none;
+  }
+  .activeb {
+    display: none;
+  }
+  .activec {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    font-size: 25px;
+  }
+
+  .red img {
+    flex-basis: 45%;
+    margin: 2em 0em;
+  }
+  h1 {
+    font-size: 17px;
+    margin: 15em -2.8em;
+  }
+  p {
+    font-size: 12px;
+    margin: -21em -4em;
+  }
+  .shiva {
+    margin: 26em 0.3em;
+  }
+  .shiva a {
+    font-size: 30px;
+  }
+  .was img {
+    width: 90%;
+  }
+  .roll {
+    margin: -53em 3em;
+    font-size: 35px;
+  }
+  .goldeneye {
+    font-size: 30px;
+    margin: 13em 3.5em;
+  }
+  .bee {
+    margin: 200em 0em;
+  }
+  .shia {
+    margin: -80em 2em;
+    width: 70%;
+  }
+  input[type="submit"] {
+    margin: 0em 5em;
+  }
+  .contact {
+    font-size: 35px;
+    margin: -36em 1em;
+  }
+  .ser {
+    font-size: 35px;
+    margin: -27em 0em;
+  }
+  .wert {
+    margin: 90em 0em;
+  }
+  .web {
+    font-size: 20px;
+    margin: -67em 1em;
+  }
+  .we {
+    font-size: 16px;
+    margin: 85em 1em;
+  }
+  .des {
+    font-size: 20px;
+    margin: -63em 1em;
+  }
+  .de {
+    font-size: 16px;
+    margin: 80em 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .topnav {
+    margin: -1em 1em;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 4em -1em;
+  }
+  .red img {
+    margin: 4em -22em;
+    flex-basis: 70%;
+  }
+  p {
+    margin: -5em -1em;
+    font-size: 28px;
+  }
+  .was img {
+    margin: 2em 9em;
+    width: 60%;
+  }
+  .roll {
+    margin: -18em 8em;
+    font-size: 40px;
+  }
+  .goldeneye {
+    margin: -11em 13em;
+    font-size: 25px;
+  }
+  .ram {
+    display: grid;
+    grid-template-rows: repeat(230px, 1fr);
+  }
+  .shia {
+    margin: -104em 22em;
+    width: 50%;
+  }
+  input[type="submit"] {
+    margin: 0em 9em;
+  }
+}
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
